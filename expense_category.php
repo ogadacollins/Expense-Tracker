@@ -233,7 +233,7 @@ function trim(strText) {
                         </div> -->
                         <div class="panel-body">
                             <button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-                           <i class="fa fa-plus-circle fa-2x"></i> Expense  Category
+                           <i class="fa fa-plus-circle fa-2x"></i> Add Expense
                             </button>
                             <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                                 <div class="modal-dialog">
@@ -254,7 +254,7 @@ function trim(strText) {
             <div class="row" >
              <div class="form-group col-md-12" >
                  <label>Expense Name : </label>
-       <input type="text" name="expense_category_name" id="expense_category_name" class="form-control" placeholder="PLease Enter Expense Name"  required>
+       <input type="text" name="expense_category_name" id="expense_category_name" class="form-control" placeholder="Enter Expense Category"  required>
                      </div>
                     
                     <br>
@@ -263,7 +263,7 @@ function trim(strText) {
                     
               <div class="form-group col-md-12">
                 <label> Enter Amount : </label>
-                  <input type="text" name="amount" id="amount"  class="form-control"placeholder="Please Enter Expense Name :"   onBlur="this.value=trim(this.value);" required>
+                  <input type="text" name="amount" id="amount"  class="form-control"placeholder="Enter Total Amount to be spent"   onBlur="this.value=trim(this.value);" required>
         </div>
        </div>
             <?php  if(isset($message)){echo "<font color='FF0000'><h5>$message</font></h5>";} ?>

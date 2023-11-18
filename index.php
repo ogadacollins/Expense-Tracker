@@ -167,7 +167,7 @@ function trim(strText) {
 				
 					
                     <li>
-                        <a   href=" "><i class="fa fa-dashboard fa-3x"></i> Dashboard</a>
+                        <a   href="#"><i class="fa fa-dashboard fa-3x"></i> Dashboard</a>
                     </li>
                    
                       <li  >
